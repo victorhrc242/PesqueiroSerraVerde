@@ -7,6 +7,7 @@ import Login from './Login.jsx'
 import Dashboard from './Pages/Dashboard.jsx'
 import Caixa from './Pages/Caixa.jsx'
 import ModuloEmDesenvolvimento from './Pages/ModuloEmDesenvolvimento.jsx'
+import Estoque from './Pages/Estoque.jsx'
 import './Css/Global.css'
 
 function App() {
@@ -24,10 +25,7 @@ function App() {
               element={<Caixa nome="Caixa" />}
             />
 
-            <Route
-              path="/estoque"
-              element={<ModuloEmDesenvolvimento nome="Estoque" />}
-            />
+           <Route path="/estoque" element={<Estoque />} />
           </Route>
 
           <Route path="*" element={<Navigate to="/" replace />} />
