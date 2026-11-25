@@ -1,0 +1,31 @@
+.modulo {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  text-align: center;
+}
+
+.modulo-conteudo h1 {
+  color: var(--verde-900);
+}
+
+.modulo-conteudo p {
+  margin-top: 8px;
+  color: var(--texto-fraco);
+}
+
+.modulo-voltar {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 18px;
+  border-radius: 7px;
+  background: var(--verde-700);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.modulo-voltar:hover {
+  background: #17452e;
+}
